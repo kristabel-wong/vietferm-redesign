@@ -78,7 +78,7 @@ export default {
 .home {
     width: 60vw;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .flex {
@@ -93,22 +93,23 @@ export default {
     width: 50%;
 }
 
-.top div {
+.top div, .text div {
     margin: 20px;
 }
 
 .carousel {
-    margin: 0 30px;
+    /* margin: 0 30px; */
     max-width: 50%;
     /* border: 1px solid red; */
 }
 
 .carousel img {
-    width: 80%;
+    width: 75%;
 }
 
 .images {
     margin: 40px 0;
+    position: relative;
 }
 
 .images img {
@@ -116,12 +117,12 @@ export default {
 }
 
 .text {
-    /* position: relative; */
+    position: absolute;
     font-size: 1.3em;
     text-align: right;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* width: 50%; */
-    /* right: 10px; */
+    right: 20px;
     color: #7C848C;
 }
 
