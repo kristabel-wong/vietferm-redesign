@@ -39,9 +39,9 @@
                         Lưu giữ <span> hương vị truyền thống </span> trong suốt 30 năm.
                     </div>
                 </div>
-                <img alt="image4" src="../assets/4.png">
-                <img alt="image5" src="../assets/5.png">
-                <img alt="image6" src="../assets/6.png">
+                <img alt="person on laptop" id="four" src="../assets/4.png">
+                <img alt="person on desktop" id="five" src="../assets/5.png">
+                <img alt="hands making clay pottery" id="six" src="../assets/6.png">
             </div>
         </div>
     </div>
@@ -81,12 +81,13 @@ export default {
 .home {
     width: 70vw;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
+    margin-top: 70px;
 }
 
 .top {
@@ -103,22 +104,23 @@ export default {
 
 .carousel {
     /* margin: 0 30px; */
-    max-width: 670px;
+    max-width: 50%;
+    min-width: 500px;
     /* border: 1px solid red; */
 }
 
 .carousel img {
     box-sizing: border-box;
-    height: 100%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
 .img-contain {
     box-sizing: border-box;
-    width: 500px;
-    height: 650px;
+    width: 80%;
+    height: 65vh;
     margin: 0 auto;
 }
 
@@ -132,15 +134,28 @@ export default {
     margin: 0 10px;
 }
 
+#four {
+    width: 35%;
+}
+
+#five {
+    width: 21.75%;
+}
+
+#six {
+    width: 30%;
+}
+
 .text {
     position: absolute;
-    font-size: 1.3em;
+    font-size: 148%;
     text-align: right;
     /* border: 1px solid red; */
-    /* width: 50%; */
-    right: 20px;
+    width: 50%;
+    right: 3%;
     color: #7C848C;
 }
+
 
 span {
     color: #F0BB4A

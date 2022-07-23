@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
         <nav>
-            <div class="left">
-                <router-link to="/"> <div id="homelink"> <img alt="Vietferm Logo" id="logo" src="./assets/logo.png"> Vietferm </div></router-link> 
-                <router-link to="/product">Sản phẩm</router-link>  
-                <router-link to="/stockists">Đại lý</router-link> 
-                <router-link to="/about">Về chúng tôi</router-link>
+            <div class="nav-container">
+                <div class="left">
+                    <router-link to="/"> <div id="homelink"> <img alt="Vietferm Logo" id="logo" src="./assets/logo.png"> Vietferm </div></router-link> 
+                    <router-link to="/product">Sản phẩm</router-link>  
+                    <router-link to="/stockists">Đại lý</router-link> 
+                    <router-link to="/about">Về chúng tôi</router-link>
+                </div>
+                <div class="right">
+                    <button id="account"><router-link to="#">Tài khoản</router-link></button>
+                </div>
             </div>
-            <button id="account"><router-link to="#">Tài khoản</router-link></button>
         </nav>
         <router-view />
     
@@ -23,7 +26,11 @@
     
     
 :root {
-    background-color: #F5F5F5;
+    background-color: #FFF7EF;
+}
+
+body {
+    margin: 0;
 }
 
 #app {
@@ -36,8 +43,13 @@
 }
 
 nav {
+    border-bottom: 3px solid #f7f0ea;
+
+}
+
+.nav-container {
     padding: 30px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 70vw;
     margin: 0 auto;
     display: flex;
@@ -69,11 +81,21 @@ nav a.router-link-exact-active {
     display: inline-block;
 }
 
+.right {
+    position: relative;
+    width: 130px;
+    /* border: 3px solid blue; */
+}
+
 #account {
     background-color: #64906C;
     padding: 3px;
     border-radius: 10px;
     border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
 }
 
 #account a {
