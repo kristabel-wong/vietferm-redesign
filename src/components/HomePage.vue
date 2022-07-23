@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+
         <div class="flex">
             <div class="top">
                 <div>
@@ -26,6 +27,7 @@
                 </swiper>
             </div>
         </div>
+
         <div>
             <div class="images">
                 <div class="text">
@@ -44,6 +46,52 @@
                 <img alt="hands making clay pottery" id="six" src="../assets/6.png">
             </div>
         </div>
+
+        <div class="products">
+            <div>  Sản phẩm </div>
+
+            <div class="product">
+                <img alt="vinegar2" src="../assets/2.jpeg">
+
+                <div class="product-desc">
+                    <div>
+                    Dấm gạo lứt
+                    </div>
+                    <div>
+                        <button>Chọn mua</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img alt="vinegar3" src="../assets/10.jpeg">
+
+                <div class="product-desc">
+                    <div>
+                    Dấm gạo lứt
+                    </div>
+                    <div>
+                        <button>Chọn mua</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img alt="vinegar4" src="../assets/11.jpeg">
+
+                <div class="product-desc">
+                    <div>
+                    Dấm gạo lứt
+                    </div>
+                    <div>
+                        <button>Chọn mua</button>
+                    </div>
+                </div>
+            </div>
+      
+            
+        </div>
+
     </div>
 </template>
 
@@ -170,6 +218,31 @@ span {
     height: 50px;
     display: block;
     margin: 10px auto;
+}
+
+.products img {
+    height: 30vh;
+    min-height: 300px;
+    margin: 40px;
+}
+
+button {
+    background-color: #64906C;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.product {
+    width: 25%;
+    display: inline-block;
+}
+
+.product-desc {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 </style>
