@@ -100,6 +100,98 @@
             
         </div>
 
+        <div>
+            <div class="health-title">
+                Dấm và sức khoẻ
+            </div>
+
+            <div class="health-benefits">
+                <div class="health">
+                    <div class="ingredients">
+                        <img src="../assets/honey.png" alt="honey">
+                        <div>Mật ong</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/ginger.png" alt="ginger">
+                        <div>Gừng</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/apple-vinegar.png" alt="apple vinegar">
+                        <div>Dấm táo</div>
+                    </div>
+                    <div class="benefits">
+                        <div>Tăng sức đề kháng </div>
+                        <div>Làm ấm cơ thể</div>
+                        <div>Chữa đau họng</div>
+                    </div>
+                </div>
+
+                <div class="health">
+                    <div class="ingredients">
+                        <img src="../assets/honey.png" alt="honey">
+                        <div>Mật ong</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/ginger.png" alt="ginger">
+                        <div>Gừng</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/apple-vinegar.png" alt="apple vinegar">
+                        <div>Dấm táo</div>
+                    </div>
+                    <div class="benefits">
+                        <div>Tăng sức đề kháng </div>
+                        <div>Làm ấm cơ thể</div>
+                        <div>Chữa đau họng</div>
+                    </div>
+                </div>
+
+                <div class="health">
+                    <div class="ingredients">
+                        <img src="../assets/honey.png" alt="honey">
+                        <div>Mật ong</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/ginger.png" alt="ginger">
+                        <div>Gừng</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/apple-vinegar.png" alt="apple vinegar">
+                        <div>Dấm táo</div>
+                    </div>
+                    <div class="benefits">
+                        <div>Tăng sức đề kháng </div>
+                        <div>Làm ấm cơ thể</div>
+                        <div>Chữa đau họng</div>
+                    </div>
+                </div>
+
+                <div class="health">
+                    <div class="ingredients">
+                        <img src="../assets/honey.png" alt="honey">
+                        <div>Mật ong</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/ginger.png" alt="ginger">
+                        <div>Gừng</div>
+                    </div>
+                    <div class="ingredients">
+                        <img src="../assets/apple-vinegar.png" alt="apple vinegar">
+                        <div>Dấm táo</div>
+                    </div>
+                    <div class="benefits">
+                        <div>Tăng sức đề kháng </div>
+                        <div>Làm ấm cơ thể</div>
+                        <div>Chữa đau họng</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+        </div>
+
     </div>
 </template>
 
@@ -254,7 +346,7 @@ button {
     margin-bottom: 30px;
 }
 
-.products-title {
+.products-title, .health-title {
     display: flex;
     justify-content: space-between;
     /* border: 2px solid red; */
@@ -272,4 +364,41 @@ button {
     color: #F0BB4A;
 }
 
+.health img {
+    height: 10vh;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+.health {
+    display: block;
+    margin: 20px 0;
+}
+
+.ingredients {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+
+.benefits {
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    bottom: 45px;
+    padding: 10px;
+}
+
+.benefits p {
+    margin: 5px 0;
+}
+
+
+.health-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+}
 </style>
