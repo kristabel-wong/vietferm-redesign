@@ -15,6 +15,19 @@
         </nav>
         <router-view />
     
+
+        <footer>
+            <div>
+                <strong>Vietferm</strong>
+                <div>something</div>
+            </div>
+
+            <div class="footer-logo">
+                <img alt="Vietferm Logo" id="logoFooter" src="./assets/logo.png"> 
+                <div>Vietferm</div>
+            </div>
+            
+        </footer>
   </div>
 </template>
 
@@ -100,6 +113,21 @@ nav a.router-link-exact-active {
 
 #account a {
     color: #FFF7EF;
+}
+
+footer {
+    background-color: #F4F0EA;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#logoFooter {
+    height: 70px;
+}
+
+.footer-logo {
+    color: #F0BB4A;
 }
 
 </style>

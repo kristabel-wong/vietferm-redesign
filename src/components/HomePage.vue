@@ -187,8 +187,6 @@
                 </div>
             </div>
 
-
-
             
         </div>
 
@@ -401,4 +399,6 @@ button {
     justify-content: space-around;
     margin: 30px 0;
 }
+
+
 </style>
