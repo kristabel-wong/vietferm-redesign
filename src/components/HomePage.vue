@@ -48,7 +48,15 @@
         </div>
 
         <div class="products">
-            <div>  Sản phẩm </div>
+            <div class="products-title">   
+                <div>
+                    Sản phẩm
+                </div>
+                <div>
+                    <router-link to="/product">Xem thêm</router-link>
+                    <router-link to="/stockists">Tìm đại lý</router-link>
+                </div>
+            </div>
 
             <div class="product">
                 <img alt="vinegar2" src="../assets/2.jpeg">
@@ -223,7 +231,7 @@ span {
 .products img {
     height: 30vh;
     min-height: 300px;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 button {
@@ -237,12 +245,31 @@ button {
 .product {
     width: 25%;
     display: inline-block;
+    margin: 40px;
 }
 
 .product-desc {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
+}
+
+.products-title {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    font-size: 1.5em;
+    padding: 0 20px;
+}
+
+.products-title a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.products-title a:hover {
+    color: #F0BB4A;
 }
 
 </style>
