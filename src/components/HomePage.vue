@@ -5,15 +5,15 @@
             <div class="top">
                 <div>
                     <img alt="image7" class="logo" src="../assets/7.png">
-                    Làm từ thành phần tự nhiên
+                    <div>Làm từ thành phần tự nhiên</div>
                 </div>
                 <div>
                     <img alt="image8" class="logo" src="../assets/8.png">
-                    Sản xuất bằng tâm huyết và trí tuệ
+                    <div>Sản xuất bằng tâm huyết và trí tuệ</div>
                 </div>
                 <div>
                     <img alt="image9" class="logo" src="../assets/9.png">
-                    Lựa chọn tuyệt vời cho sức khoẻ
+                    <div>Lựa chọn tuyệt vời cho sức khoẻ</div>
                 </div>
             </div>
 
@@ -41,9 +41,11 @@
                         Lưu giữ <span> hương vị truyền thống </span> trong suốt 30 năm.
                     </div>
                 </div>
-                <img alt="person on laptop" id="four" src="../assets/4.png">
-                <img alt="person on desktop" id="five" src="../assets/5.png">
-                <img alt="hands making clay pottery" id="six" src="../assets/6.png">
+                <div class="three-img">
+                    <img alt="person on laptop" id="four" src="../assets/4.png">
+                    <img alt="person on desktop" id="five" src="../assets/5.png">
+                    <img alt="hands making clay pottery" id="six" src="../assets/6.png">
+                </div>
             </div>
         </div>
 
@@ -434,6 +436,56 @@ button {
         width: 100%;
         font-size: 1em;
     }
+
+    .top div {
+        display: flex;
+    }
+
+
+    .logo {
+        height: 50px;
+        display: inline-block;
+        margin: 10px auto;
+    }    
+
+    .images {
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .images img {
+        margin: 0 5px;
+    }
+    
+    #four {
+        width: 35%;
+    }
+
+    #five {
+        width: 21.75%;
+    }
+
+    #six {
+        width: 30%;
+    }
+
+    .text {
+        position: inherit;
+        font-size: 148%;
+        text-align: right;
+        /* border: 1px solid red; */
+        width: 100%;
+        right: 3%;
+
+    }
+
+    .health img {
+        height: 7vh;
+        min-height: 60px;
+        margin-bottom: 10px;
+    }
+
 
 }
 
