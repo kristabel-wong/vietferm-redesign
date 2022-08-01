@@ -210,7 +210,8 @@ export default {
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev'
-                }
+                },
+                loop: true,
             }
         }
     }
@@ -400,5 +401,40 @@ button {
     margin: 30px 0;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+    .home {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+        
+
+    .carousel {
+        max-width: 80%;
+        min-width: 350px;
+        margin: 0 auto;
+    }
+
+    .img-contain {
+        width: 78%;
+        height: 40vh;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        --swiper-navigation-size: 35px !important;
+    }
+
+    .top {
+        width: 100%;
+        font-size: 1em;
+    }
+
+}
 
 </style>

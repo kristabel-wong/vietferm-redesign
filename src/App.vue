@@ -240,4 +240,13 @@ nav a.router-link-exact-active {
     margin-left: 20px;
 }
 
+/*----------- media queries ----------*/
+
+@media only screen and (max-width: 600px) {
+
+
+
+    
+}
+
 </style>
