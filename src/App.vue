@@ -3,10 +3,11 @@
         <nav>
             <div class="nav-container">
                 <div class="left">
+                    <!-- <img src="./assets/menu.png" alt="menu icon"> -->
                     <router-link to="/"> <div id="homelink"> <img alt="Vietferm Logo" id="logo" src="./assets/logo.png"> Vietferm </div></router-link> 
-                    <router-link to="/product">Sản phẩm</router-link>  
-                    <router-link to="/stockists">Đại lý</router-link> 
-                    <router-link to="/about">Về chúng tôi</router-link>
+                    <router-link to="/product" id="productLink">Sản phẩm</router-link>  
+                    <router-link to="/stockists" id="stockistsLink">Đại lý</router-link> 
+                    <router-link to="/about" id="aboutLink">Về chúng tôi</router-link>
                 </div>
                 <div class="right">
                     <button id="account"><router-link to="#">Tài khoản</router-link></button>
@@ -240,6 +241,10 @@ nav a.router-link-exact-active {
     margin-left: 20px;
 }
 
+#menuIcon {
+    display: none;
+}
+
 /*----------- media queries ----------*/
 
 @media only screen and (max-width: 600px) {
@@ -290,6 +295,19 @@ nav a.router-link-exact-active {
         top: -90px;
     }
 
+    #productLink, #stockistsLink, #aboutLink, #account, .right {
+        display: none;
+    }
+
+    #menuIcon {
+        display: block;
+        /* filter: invert(1); */
+        position: absolute;
+        left: 30px;
+        top: 97px;
+    }
+
+    
 }
 
 </style>

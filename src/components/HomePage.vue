@@ -60,45 +60,47 @@
                 </div>
             </div>
 
-            <div class="product">
-                <img alt="vinegar2" src="../assets/2.jpeg">
+            <div class="product-list">
 
-                <div class="product-desc">
-                    <div>
-                    Dấm gạo lứt
+                <div class="product">
+                    <img alt="vinegar2" src="../assets/2.jpeg">
+
+                    <div class="product-desc">
+                        <div>
+                        Dấm gạo lứt
+                        </div>
+                        <div>
+                            <button>Chọn mua</button>
+                        </div>
                     </div>
-                    <div>
-                        <button>Chọn mua</button>
+                </div>
+
+                <div class="product">
+                    <img alt="vinegar3" src="../assets/10.jpeg">
+
+                    <div class="product-desc">
+                        <div>
+                        Dấm gạo lứt
+                        </div>
+                        <div>
+                            <button>Chọn mua</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img alt="vinegar4" src="../assets/11.jpeg">
+
+                    <div class="product-desc">
+                        <div>
+                        Dấm gạo lứt
+                        </div>
+                        <div>
+                            <button>Chọn mua</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="product">
-                <img alt="vinegar3" src="../assets/10.jpeg">
-
-                <div class="product-desc">
-                    <div>
-                    Dấm gạo lứt
-                    </div>
-                    <div>
-                        <button>Chọn mua</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product">
-                <img alt="vinegar4" src="../assets/11.jpeg">
-
-                <div class="product-desc">
-                    <div>
-                    Dấm gạo lứt
-                    </div>
-                    <div>
-                        <button>Chọn mua</button>
-                    </div>
-                </div>
-            </div>
-      
             
         </div>
 
@@ -486,7 +488,25 @@ button {
         margin-bottom: 10px;
     }
 
+    .product-list {
+        margin-top: 20px;
+    }
 
+    .product img {
+        min-height: 10vh;
+        margin: 20px auto;
+    }
+
+    .product {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .product-desc {
+        width: 100%;
+    }
 }
 
 </style>
